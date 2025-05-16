@@ -92,7 +92,7 @@ export default function RootLayout({
                 <p className="text-sky-100">Email: contato@drapiumbini.com.br</p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
+                <h3 className="text-lg font-semibold mb-4">Links Úteis</h3>
                 <div className="flex flex-col space-y-2">
                   <Link href="#tratamentos" className="text-sky-100 hover:text-white">
                     Tratamentos

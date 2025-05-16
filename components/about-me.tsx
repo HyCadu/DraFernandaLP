@@ -31,7 +31,7 @@ export function AboutMe() {
             </motion.h2>
             <div className="space-y-6 text-gray-600">
               <div className="flex items-start gap-4">
-                <User className="h-12 w-12 text-sky-600" />
+                <User className="h-16 w-16 sm:h-16 sm:w-16 text-sky-600" />
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export function AboutMe() {
                 </motion.p>
               </div>
               <div className="flex items-start gap-4">
-                <GraduationCap className="h-12 w-12 text-sky-600" />
+                <GraduationCap className="h-16 w-16 sm:h-16 sm:w-16 text-sky-600" />
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +57,7 @@ export function AboutMe() {
                 </motion.p>
               </div>
               <div className="flex items-start gap-4">
-                <Heart className="h-12 w-12 text-sky-600" />
+                <Heart className="h-16 w-16 sm:h-16 sm:w-16 text-sky-600" />
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
